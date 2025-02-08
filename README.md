@@ -1,6 +1,6 @@
 # Hidden Process Detection
 
-This proof-of-concept demonstrates a technique for detecting hidden processes on Windows systems by leveraging NtQuerySystemInformation. The idea behind this project is simple: by comparing the standard process list with the process IDs obtained from enumerating all open handles, we can detect discrepancies that may indicate malicious process hiding.
+This proof-of-concept demonstrates a user-mode technique for detecting hidden processes on Windows by leveraging NtQuerySystemInformation. The idea behind this project is simple: by comparing the standard process list with the process IDs obtained from enumerating all open handles, we can detect discrepancies that may indicate malicious process hiding.
 
 ## How It Works
 
