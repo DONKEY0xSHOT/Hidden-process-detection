@@ -13,4 +13,4 @@ By comparing the set of PIDs from the handle table against those in the active p
 
 ## Disclaimer
 
-This proof-of-concept is provided strictly for educational purposes. It demonstrates a method to detect processes that have been unlinked from the standard process list. Please note that the technique depends on NtQuerySystemInformation returning unaltered data. if NtQuerySystemInformation was hooked, the detection mechanism will not work.
+This proof-of-concept is provided strictly for educational purposes. It demonstrates a method to detect processes that have been unlinked from the standard process list. Please note that the technique depends on NtQuerySystemInformation returning unaltered data. If NtQuerySystemInformation was hooked, the detection mechanism will not work.
